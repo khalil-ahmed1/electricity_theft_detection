@@ -1,5 +1,17 @@
 After cloning a Python repo, the usual steps are:
 
+```
+cd to main directory (where requirements.txt file, check by ls)
+py or python -m venv .venv
+.venv/scripts/activate
+pip install -r requirements.txt
+(if error in tensorflow then change version of python below 3.11)
+.venv ( deactivate or close terminal and open new terminal)
+py -3.10 -m venv .venv
+.venv/scripts/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
 # 1. Go into the project folder
 
 ```bash id="dxk26w"
